@@ -1,0 +1,29 @@
+{
+  "name": "svg_logo_maker",
+  "version": "1.0.0",
+  "description": "OOP challenge",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmyEdmond/SVG_Logo_Maker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmyEdmond/SVG_Logo_Maker/issues"
+  },
+  "homepage": "https://github.com/AmyEdmond/SVG_Logo_Maker#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}

@@ -1,10 +1,10 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const shapes = require('./lib/shapes.js')
+const userChoice = require('./lib/shapeChoice.js')
 const fileName = "./examples/logo.svg";
 
-function writeToFile(data) {
-    const svg = shapes(data);
+function writeToFile(fileName, data) {
+    const svg = userChoice(data);
     fs.writeFile('fileName', svg, error => error 
     ? console.error('Error!')
     : console.log('Generated logo.svg!'))

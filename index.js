@@ -16,12 +16,12 @@ const questions = [
         type: 'input',
         message: 'What is your logo text? Please enter up to three characters!',
         name: 'logoText',
-        validate: (answer) => {
-            if (answer.length > 3) {
-                return console.log('Your text must be up to three characters! Please try again');
-            }
-            return true;
-        }
+        // validate: (answer) => {
+        //     if (answer.length > 3) {
+        //         return console.log('Your text must be up to three characters! Please try again');
+        //     }
+        //     return true;
+        // }
     },
     {
         type: 'input',

@@ -1,11 +1,11 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const userChoice = require('./lib/shapeChoice.js')
+const shapeChoice = require('./lib/shapeChoice.js')
 const fileName = "./examples/logo.svg";
 
-function writeToFile(fileName, data) {
-    const svg = userChoice(data);
-    fs.writeFile('fileName', svg, error => error 
+function makeLogo(data) {
+    const svg = shapeChoice(data);
+    fs.writeFile(fileName, svg, error => error 
     ? console.error('Error!')
     : console.log('Generated logo.svg!'))
 };
@@ -16,6 +16,12 @@ const questions = [
         type: 'input',
         message: 'What is your logo text? Please enter up to three characters!',
         name: 'logoText',
+        validate: (answer) => {
+            if (answer.length > 3) {
+                return console.log('Your text must be up to three characters! Please try again');
+            }
+            return true;
+        }
     },
     {
         type: 'input',
@@ -40,13 +46,9 @@ const questions = [
 function init() {
     inquirer.prompt(questions)
     .then((data) => {
-        if (data.logoText.length > 3) {
-            console.log('Please enter up to three characters!');
-            init();
-        } else {
-         writeToFile('logo.svg', data);
-        };
+          makeLogo(data);
     });
 }   
+//.catch((error) => console.log(error));
 
 init();

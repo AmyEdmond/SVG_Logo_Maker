@@ -30,7 +30,7 @@ The goal for this challenge was to create a SVG logo maker. When the application
 Within the directory, the application is invoked by using the command `node index.js`.
 Enter the required information for your project by answering each questions. 
 A new SVG logo will be generated.
-![image](https://user-images.githubusercontent.com/122325607/229410020-decf7686-2f0e-4afe-a97c-ee61cf3255a6.png)
+![image](enter image link)
 
 ## Credits
 
@@ -46,7 +46,7 @@ If you see something in this project that could be improved, you can do a featur
 
 
 ## Tests
-Watch this [demo](https://watch.screencastify.com/v/bIirugu6a8gNfHWSTrmA) to see the SVG logo maker.
+Watch this [demo](enter demo link) to see the SVG logo maker.
 
 ## Questions
 

@@ -31,8 +31,11 @@ Within the directory, the application is invoked by using the command `node inde
 Enter the required information for your logo by answering each questions. If your text is more than 3 characters, you will be prompted to try again 
 A new SVG logo will be generated in the examples folder under file name 'logo.svg'. 
 ![image](https://user-images.githubusercontent.com/122325607/234724496-cdc1280b-232a-47c6-938d-8b61b4814454.png)
+
 ![image](https://user-images.githubusercontent.com/122325607/234721879-ce308582-c447-43db-b41d-c39f66113f9b.png)
-![image](https://user-images.githubusercontent.com/122325607/234722861-d3dd8712-0e00-402e-9760-57c28afc7332.png)
+
+![image](https://user-images.githubusercontent.com/122325607/234727436-75d82bf1-fdb8-440c-af06-975e14cfa0b0.png)
+
 ![image](https://user-images.githubusercontent.com/122325607/234723114-11cf619b-8447-46f5-bbe7-3ac1249ec1d1.png)
 
 
